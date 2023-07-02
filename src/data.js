@@ -1,3 +1,5 @@
+import {ShoeImage} from './Images/ShoeImage-removebg.png'
+
 export const sliderItems = [
     {
         id: 1,
@@ -46,7 +48,7 @@ export const categories = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://o.remove.bg/downloads/ab570ad1-a4f0-458f-b034-0a33329b1706/ShoeImage-removebg-preview.png",
     },
     {
       id:3,
@@ -54,7 +56,7 @@ export const categories = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://o.remove.bg/downloads/a63782a7-5935-43e1-94fa-8af4342c50be/watch-removebg-preview.png",
     },
     {
       id:5,
@@ -66,7 +68,7 @@ export const categories = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://o.remove.bg/downloads/bcc1ecb4-7359-4407-9dda-d2e3d35514f2/highHeels-removebg-preview.png",
     },
     {
       id:8,

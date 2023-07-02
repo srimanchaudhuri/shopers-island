@@ -22,10 +22,13 @@ const SearchContainer = styled.div`
     align-items: center;
     margin-left: 25px; 
     padding: 5px;
+    cursor: pointer;
 `
 
 const Input = styled.input`
     border: none;
+    padding: 0;
+    &:focus{ outline: none; }
 `
 
 const Left = styled.div`

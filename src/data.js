@@ -48,7 +48,7 @@ export const categories = [
     },
     {
       id:2,
-      img:"https://o.remove.bg/downloads/ab570ad1-a4f0-458f-b034-0a33329b1706/ShoeImage-removebg-preview.png",
+      img:"file:///Users/surferex/Downloads/ShoeImage-removebg%20(1).png",
     },
     {
       id:3,

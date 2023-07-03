@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter } from '@mui/icons-material'
+import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@mui/icons-material'
 import React from 'react'
 import { styled } from 'styled-components'
 
@@ -61,6 +61,16 @@ const Right = styled.div`
     padding: 20px;
 `
 
+const ContactItem = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+`
+
+const Payment = styled.img`
+    width: 50%;
+`
+
 const Footer = () => {
   return (
     <Container>
@@ -92,7 +102,14 @@ const Footer = () => {
             <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right></Right>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem><Room style={{marginRight:"10px"}}/> 263 Avenue Road, Kolkata 700056</ContactItem>
+        <ContactItem><Phone style={{marginRight:"10px"}}/> +91 8732864564</ContactItem>
+        <ContactItem><MailOutline style={{marginRight:"10px"}}/> contact@gmail.com</ContactItem>
+        <Payment src="https://www.pngmart.com/files/7/Payment-Background-PNG.png"/>
+      </Right>
+
     </Container>
   )
 }

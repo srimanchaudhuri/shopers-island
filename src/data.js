@@ -48,7 +48,7 @@ export const categories = [
     },
     {
       id:2,
-      img:"file:///Users/surferex/Downloads/ShoeImage-removebg%20(1).png",
+      img:"https://img.freepik.com/free-photo/ice-coffee-with-whipped-cream_144627-3801.jpg?w=1060&t=st=1688642610~exp=1688643210~hmac=ceb8b55cbf5838308777e62c4d790810efbf59e5470249cbb11e7d668d9bbfc7",
     },
     {
       id:3,
@@ -56,7 +56,7 @@ export const categories = [
     },
     {
       id:4,
-      img:"https://o.remove.bg/downloads/a63782a7-5935-43e1-94fa-8af4342c50be/watch-removebg-preview.png",
+      img:"https://img.freepik.com/free-photo/pink-handbags_1203-7829.jpg?size=626&ext=jpg",
     },
     {
       id:5,
@@ -68,7 +68,7 @@ export const categories = [
     },
     {
       id:7,
-      img:"https://o.remove.bg/downloads/bcc1ecb4-7359-4407-9dda-d2e3d35514f2/highHeels-removebg-preview.png",
+      img:"https://img.freepik.com/free-photo/high-heel-shoes_1203-8668.jpg?size=626&ext=jpg",
     },
     {
       id:8,

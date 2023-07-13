@@ -9,7 +9,7 @@ router.post("/", verifyTokenAndAdmin, async(req, res) => {
 
     try {
         const savedProduct = await newProd.save()
-        res.status(200).json(" Saved Product")
+        res.status(200).json(savedProduct)
     } catch (error) {
         res.status(500).json(err)
     }

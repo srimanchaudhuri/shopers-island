@@ -23,6 +23,16 @@ const userSchema = new mongoose.Schema(
         {
             type: Boolean,
             default: false,
+        },
+        img:
+        {
+            type: String,
+            default: "https://cdn-icons-png.flaticon.com/128/9453/9453981.png",
+        },
+        amount:
+        {
+            type: Number,
+            default: 0
         }
     },
     {timestamps: true}

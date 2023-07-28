@@ -35,6 +35,11 @@ const productSchema = new mongoose.Schema(
             type: Number,
             required: true,
         },
+        producer:
+        {
+            type: String,
+            default: "unknown",
+        },
         inStock:
         {
             type: Boolean,
